@@ -41,4 +41,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/parcel-tracker:${{ github.ref_name }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/final-main:${{ github.ref_name }}
